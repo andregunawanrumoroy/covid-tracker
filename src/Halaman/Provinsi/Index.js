@@ -2,8 +2,8 @@ import React from "react";
 
 const Provinsi = () => {
     return (
-        <div>
-            <p>Provinsi</p>
+        <div className="Provinsi">
+            <p>Jumlah Kasus Per Provinsi</p>
         </div>
     );
 };

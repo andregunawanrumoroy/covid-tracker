@@ -2,8 +2,8 @@ import React from "react";
 
 const Global = () => {
     return (
-        <div>
-            <p>Global</p>
+        <div className="global">
+            <p>Jumblah Kasus Seluruh Dunia</p>
         </div>
     );
 };

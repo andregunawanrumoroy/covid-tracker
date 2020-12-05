@@ -2,8 +2,8 @@ import React from "react";
 
 const Indonesia = () => {
     return (
-        <div>
-            <p>Indonesia</p>
+        <div className="indonesia">
+            <p>Jumlah Kasus di Indonesia</p>
         </div>
     );
 };
