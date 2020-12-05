@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+
+/*======================Covid Tracker=======================*/
+.Judul {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
+.Card-Container {
+  margin: 15px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
+}
+
+
