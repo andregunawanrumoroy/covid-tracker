@@ -10,4 +10,16 @@
   color: white;
 }
 
+.Global-Container {
+  background-color: rgb(224, 224, 77);
+}
+
+.Indonesia-Container {
+  background-color: rgb(238, 43, 43);
+}
+
+.Provinsi-Container {
+  background-color: rgb(46, 231, 46);
+}
+
 

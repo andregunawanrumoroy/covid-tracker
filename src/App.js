@@ -7,16 +7,14 @@ const App = () => {
   return (
     <div>
       <div className="Judul">
-        <table>
-          <h1>Covid Tracker</h1>
-        </table>
+        <h1>Covid Tracker</h1>
       </div>
     <Router>
       <div>
         <nav>
           <ul>
             <li>
-              <Link to="/">Global</Link>
+              <Link to="/Global">Global</Link>
             </li>
             <li>
               <Link to="/Indonesia">Indonesia</Link>
