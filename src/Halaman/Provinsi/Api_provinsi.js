@@ -18,11 +18,12 @@ export default function Api_indonesia() {
 
     console.log(dataPro)
     return (
-        <div>
-            <h1 className="Data-Provinsi">
-                <NumberFormat value={dataPro} thousandSeparator={true} displayType={'text'}/>
-                <p>Confirmed</p>
-            </h1>
-        </div>
+        <>
+            {dataPro.map((item, index) => {
+                return(
+                    <NumberFormat value={dataPro} thousandSeparator={true} displayType={'text'}/>
+                )
+            })}
+        </>
     )
 }

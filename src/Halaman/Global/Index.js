@@ -1,7 +1,6 @@
 import React from "react";
 import Api_global from "./Api_global";
 
-
 const Global = () => {
     return (
         <div className="Global-Container">
