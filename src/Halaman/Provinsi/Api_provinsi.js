@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import NumberFormat from 'react-number-format'
 
-    export default function CardIndo(){
+    export default function Api_provinsi(){
         const [dataPro, provinsiList] = useState([]);
 
    
