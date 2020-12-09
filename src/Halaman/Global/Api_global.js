@@ -23,15 +23,15 @@ export default function Api_global() {
 
     return (
         <div className="Container">
-            <h1 className="Confirmed-Global">
+            <h1 className="Confirmed-All">
                 <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
                 <p>Confirmed</p>
             </h1>
-            <h1 className="Recovered-Global">
+            <h1 className="Recovered-All">
                 <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
                 <p>recovered</p>
             </h1>
-            <h1 className="Deaths-Global">
+            <h1 className="Deaths-All">
                 <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
                 <p>deaths</p>
             </h1>

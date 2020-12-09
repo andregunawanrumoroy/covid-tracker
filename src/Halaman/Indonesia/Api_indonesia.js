@@ -23,7 +23,7 @@ export default function Api_indonesia(){
     }, []);
 
     return (
-    <div>
+    <div className="Container">
         <h1 className="Confirmed-All">
             <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
                 <p>confirmed</p>
