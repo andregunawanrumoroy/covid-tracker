@@ -4,7 +4,7 @@ import Api_global from "./Api_global";
 const Global = () => {
     return (
         <div className="Global-Container">
-            <p>Jumblah Kasus Seluruh Dunia</p>
+            <h1 style={{ fontFamily: "Sen", fontSize: "60px" }}>Jumblah kasus di seluruh dunia</h1>
             <Api_global/>
         </div>
     );

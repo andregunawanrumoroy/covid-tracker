@@ -1,9 +1,11 @@
 import React from "react";
+import Api_indonesia from "./Api_indonesia";
 
 const Indonesia = () => {
     return (
         <div className="Indonesia-Container">
-            <p>Jumlah Kasus di Indonesia</p>
+            <h1 style={{ fontFamily: "Sen", fontSize: "60px" }}>Jumblah kasus di Indonesia</h1>
+            <Api_indonesia/>
         </div>
     );
 };

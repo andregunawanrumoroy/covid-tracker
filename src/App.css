@@ -10,16 +10,55 @@
   color: white;
 }
 
-.Global-Container {
-  background-color: rgb(224, 224, 77);
+.Confirmed-All{ 
+  justify-content: center;
+  font-size: 25px  ;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  margin: 2px;
+  padding: 40px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  font-weight: bold;
+  background-color:rgb(235, 248, 47);
 }
 
-.Indonesia-Container {
-  background-color: rgb(238, 43, 43);
+.Recovered-All {
+  font-size: 25px  ;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  margin: 2px;
+  padding: 40px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  font-weight: bold;
+  background-color:rgb(238, 106, 30);
 }
 
-.Provinsi-Container {
-  background-color: rgb(46, 231, 46);
+.Deaths-All {
+  font-size: 25px ;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  margin: 2px;
+  padding: 40px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  font-weight: bold;
+  background-color:rgb(59, 236, 89);
 }
+
+.Container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+}
+
 
 

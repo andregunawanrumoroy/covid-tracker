@@ -24,15 +24,15 @@ export default function Api_indonesia(){
 
     return (
     <div>
-        <h1>
+        <h1 className="Confirmed-All">
             <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
                 <p>confirmed</p>
         </h1>
-        <h1>
+        <h1 className="Recovered-All">
             <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
                 <p>recovered</p>
         </h1>
-        <h1>
+        <h1 className="Deaths-All">
             <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
                 <p>deaths</p>
         </h1>
